@@ -1,0 +1,22 @@
+.navigation {
+  font-size: 1.8rem;
+  background-color: $color-blue;
+  color: $color-light-blue;
+
+  display: flex;
+  flex: 0 1;
+  justify-content: space-between;
+  align-items: center;
+
+  &__group {
+    display: flex;
+  }
+
+  &__icon {
+    margin: 1rem;
+    padding: .5rem;
+    background-color: $color-light-blue;
+    color: $color-white;
+    border-radius: .3rem;
+  }
+}

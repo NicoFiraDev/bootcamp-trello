@@ -1,0 +1,11 @@
+.section-boards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.boards-main {
+  display: flex;
+  flex: 0 1 80%;
+  min-width: 80%;
+}

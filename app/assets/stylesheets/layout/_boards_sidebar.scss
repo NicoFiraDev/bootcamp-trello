@@ -1,0 +1,33 @@
+.boards__sidebar {
+  display: flex;
+  flex: 0 0 20%;
+  height: 100vh;
+  flex-direction: column;
+
+  &__title {
+
+  }
+
+  &__navigation {
+
+  }
+
+  &__menu,
+  &__teams-menu {
+    list-style: none;
+  }
+
+  &__item {
+    padding: .4rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-black;
+  }
+
+  &__teams {
+
+
+  }
+}
